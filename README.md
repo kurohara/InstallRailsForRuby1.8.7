@@ -11,3 +11,6 @@ $ gem install rack-cache -v 1.2
 
 $ gem install rails -v 3.2.22.5
 ````
+
+I've once failed to create new rails project because of SSL feature had not included in Ruby 1.8.7 itself, so I followed the instruction described here(https://github.com/rbenv/ruby-build/issues/197), then solved the problem.
+
