@@ -16,6 +16,8 @@ $ gem install rails -v 3.2.22.5
 
 I've once failed to create new rails project because of SSL feature had not been included in Ruby 1.8.7 itself, so I followed the instruction described here(https://github.com/rbenv/ruby-build/issues/197), then solved the problem.
 
+If you use 'coffee-rails' in your project, the dependent gem 'execjs' have to be the version '1.4.1' because newer version does not comfort to older Ruby's hash syntax.  
+
 -----
 
 二つ個人的が疑問があって、一つは、  
