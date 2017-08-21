@@ -1,7 +1,7 @@
 # InstallRailsForRuby1.8.7
 How to install Ruby on Rails for Ruby version 1.8.7
 
-Doing Try and Error....
+Following steps below will solve your problem...  
 
 ````
 $ gem install i18n -v 0.6.11
@@ -12,5 +12,12 @@ $ gem install rack-cache -v 1.2
 $ gem install rails -v 3.2.22.5
 ````
 
-I've once failed to create new rails project because of SSL feature had not included in Ruby 1.8.7 itself, so I followed the instruction described here(https://github.com/rbenv/ruby-build/issues/197), then solved the problem.
+I've once failed to create new rails project because of SSL feature had not been included in Ruby 1.8.7 itself, so I followed the instruction described here(https://github.com/rbenv/ruby-build/issues/197), then solved the problem.
 
+-----
+
+二つ個人的が疑問があって、一つは、「何故Rubyの世界ではこんなにバージョンによって違いがあって、みんな混乱しているのだろうか」と言うこと、そしてもう一つは、「Ｒｕｂｙってこんな感じなのにどうして古いバージョンを未だに使っている人が多いんだろう」ということ。  
+
+開発者が「使うな」と言っているのだから、早く新しいバージョンに移行してください。  
+
+切実なお願い。
