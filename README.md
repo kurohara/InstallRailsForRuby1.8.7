@@ -72,7 +72,8 @@ end
 
 ````
 
-I had to remove Gemfile.lock file after editing Gemfile to successfully complete ````bundle update````, ````bundle install````.
+I strongly recommend to remove Gemfile.lock file once after editing Gemfile, because some version dependency inflict unresolveable dependency loop if your old Gemfile.lock stil remain alive.  
+(If you hear somebody says 'No need to remove Gemfile.lock', DO NOT BELIEVE IT!)  
 
 -----
 
