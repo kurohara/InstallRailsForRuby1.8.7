@@ -25,6 +25,11 @@ gem 'coffee-rails', '3.2.2'
 ````
 (The version of coffee-rails may vary depend on your demand)
 
+Currently known gems should have lower version number:
+
+nokogiri: 1.5.11  
+rubyzip: 0.9.9
+
 -----
 
 二つ個人的が疑問があって、一つは、  
